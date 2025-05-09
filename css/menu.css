@@ -397,6 +397,7 @@ footer {
   gap: 1.5em;
   margin-bottom: 1.25em;
   margin: 0 auto;
+  margin-top: 10px;
 }
 @media (max-width: 860px) {
   .room-card {
@@ -405,6 +406,7 @@ footer {
     padding:1rem;
     flex-direction: column;
     gap: 0;
+    margin-top: 10px;
   }
 }
 .room-card:last-child {
@@ -455,6 +457,7 @@ footer {
 }
 .room-card-name ul {
   display: flex;
+  flex-wrap: wrap;
 }
 
 
@@ -504,6 +507,10 @@ footer {
 .bg-umeda {
   background-color: #cc8484;
   color: #fff;
+  float: left;
+  margin-bottom: 5px;
+  text-align: left;
+  white-space: nowrap;
 }
 
 * デスクトップ横並び------------------ */
