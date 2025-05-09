@@ -433,40 +433,38 @@ footer {
   font-weight: bold;
   display: inline-block;
 }
-.room-card-detial h4 {
-  font-size: 1.25em;
-  margin-bottom: 10px;
-  text-align: left;
-  display: flex;
-}
-h4 {
-  display: flex;
-}
+
 @media (max-width: 860px) {
   .room-card-detial h4 {
-    font-size: 1.125em; /* 18px */
+    font-size: 0.8rem;
   }
 }
 .room-card-detial ul {
-  display: flex;
   gap: 0.3rem;
 }
+.room-card-name ul {
+  display: flex;
+}
+
+
 .room-card-detial ul img {
   width: 2em;
   margin-right: 0.5em;
 }
 .room-card-price {
-  text-align: right;
-  font-size: 2em;
+  /* text-align: right; */
+  font-size: 2rem;
   font-weight: bold;
 }
+
 @media (max-width: 860px) {
   .room-card-price {
     text-align: left;
-    font-size: 1.5em;
+    font-size: 1.3rem;
     margin-bottom: 0.5em;
   }
 }
+
 .room-card-price span {
   font-size: 20px;
   padding-right: 1em;
