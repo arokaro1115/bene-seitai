@@ -392,10 +392,11 @@ footer {
 .room-card {
   max-width: 950px;
   border: solid 0.5px #3c3c3c;
-  /* display: flex; */
+  display: flex;
   padding: 1em 1.5em;
   gap: 1.5em;
   margin-bottom: 1.25em;
+  margin: 0 auto;
 }
 @media (max-width: 860px) {
   .room-card {
@@ -407,13 +408,16 @@ footer {
   }
 }
 .room-card:last-child {
+      margin-top: 10px;
   margin-bottom: 80px;
+
 }
 .room-card > img {
   width: 275px;
   height: 100%;
   float: left;
   margin-right: 10px;
+  margin-bottom: 10px;
 }
 @media (max-width: 860px) {
   .room-card > img {
@@ -440,7 +444,10 @@ footer {
 
 @media (max-width: 860px) {
   .room-card-detial h4 {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+  }
+  .syousai {
+    font-size: 0.7rem;
   }
 }
 .room-card-detial ul {
